@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil - Falaitube</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Falaitube</h1>
+            <nav>
+                <ul>
+                    <li><a href="../Inicio/inicio.html">Início</a></li>
+                    <li><a href="#">Explorar</a></li>
+                    <li><a href="#">Minha Conta</a></li>
+                    <li><a href="#">Sair</a></li> <!-- Adicionei um link de "Sair" para simular o logout -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <div class="container">
+            <section id="profile-info">
+                <h2>Informações do Perfil</h2>
+                <form id="profile-form">
+                    <div class="form-group">
+                        <label for="username">Nome de Usuário</label>
+                        <input type="text" id="username" name="username" value="nomeusuario123" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Endereço de E-mail</label>
+                        <input type="email" id="email" name="email" value="usuario@email.com" readonly>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Nova Senha</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Salvar Alterações</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Falaitube. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
